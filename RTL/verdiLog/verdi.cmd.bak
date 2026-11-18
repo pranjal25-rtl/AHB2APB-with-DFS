@@ -1,5 +1,0 @@
-sidCmdLineBehaviorAnalysisOpt -incr -clockSkew 0 -loopUnroll 0 -bboxEmptyModule 0  -cellModel 0 -bboxIgnoreProtected 0 
-debImport "-f" "dfs_rtl.f" "-top" "dfs_top"
-verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
-verdiWindowResize -win $_Verdi_1 "185" "27" "900" "659"
-verdiWindowResize -win $_Verdi_1 "185" "27" "900" "659"
