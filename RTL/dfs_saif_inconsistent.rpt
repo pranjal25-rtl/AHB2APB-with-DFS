@@ -1,0 +1,6 @@
+obj_name                                           obj_type   toggle_rate          static_prob         
+----------------------------------------------------------------------------------------------------
+Net1:	hreadyout 
+
+hreadyout                                          NET        0.000893             0.729911            
+u_act_mon/hready                                   NET        0.000000             0.500000            

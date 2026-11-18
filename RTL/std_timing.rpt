@@ -1,0 +1,453 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 20
+Design : standard_bridge_top
+Version: W-2024.09
+Date   : Tue Oct 20 19:14:08 2026
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: PSEL[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[1]/CLK (DFFARX1_RVT)           0.00       0.00 r
+  state_reg[1]/Q (DFFARX1_RVT)             0.17       0.17 r
+  U168/Y (NAND3X0_RVT)                     0.06       0.23 f
+  U320/Y (NAND2X0_RVT)                     0.08       0.30 r
+  U323/Y (AND3X1_RVT)                      0.07       0.37 r
+  PSEL[3] (out)                            0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: PSEL[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[1]/CLK (DFFARX1_RVT)           0.00       0.00 r
+  state_reg[1]/Q (DFFARX1_RVT)             0.17       0.17 r
+  U168/Y (NAND3X0_RVT)                     0.06       0.23 f
+  U320/Y (NAND2X0_RVT)                     0.08       0.30 r
+  U322/Y (AND3X1_RVT)                      0.07       0.37 r
+  PSEL[2] (out)                            0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: PSEL[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[1]/CLK (DFFARX1_RVT)           0.00       0.00 r
+  state_reg[1]/Q (DFFARX1_RVT)             0.17       0.17 r
+  U168/Y (NAND3X0_RVT)                     0.06       0.23 f
+  U320/Y (NAND2X0_RVT)                     0.08       0.30 r
+  U321/Y (AND3X1_RVT)                      0.07       0.37 r
+  PSEL[1] (out)                            0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: PSEL[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[1]/CLK (DFFARX1_RVT)           0.00       0.00 r
+  state_reg[1]/Q (DFFARX1_RVT)             0.17       0.17 r
+  U168/Y (NAND3X0_RVT)                     0.06       0.23 f
+  U320/Y (NAND2X0_RVT)                     0.08       0.30 r
+  U326/Y (AND2X1_RVT)                      0.06       0.36 r
+  PSEL[0] (out)                            0.00       0.36 r
+  data arrival time                                   0.36
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: HRESP (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[1]/CLK (DFFARX1_RVT)           0.00       0.00 r
+  state_reg[1]/Q (DFFARX1_RVT)             0.17       0.17 r
+  U324/Y (AND3X1_RVT)                      0.07       0.24 r
+  U325/Y (AO21X1_RVT)                      0.04       0.28 r
+  HRESP (out)                              0.00       0.28 r
+  data arrival time                                   0.28
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: PENABLE (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[1]/CLK (DFFARX1_RVT)           0.00       0.00 r
+  state_reg[1]/Q (DFFARX1_RVT)             0.17       0.17 r
+  U168/Y (NAND3X0_RVT)                     0.06       0.23 f
+  U169/Y (INVX1_RVT)                       0.05       0.27 r
+  PENABLE (out)                            0.00       0.27 r
+  data arrival time                                   0.27
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[12]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[12] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[12]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[12]/Q (DFFARX1_RVT)           0.20       0.20 r
+  PADDR[12] (out)                          0.00       0.20 r
+  data arrival time                                   0.20
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: HREADYOUT (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[1]/CLK (DFFARX1_RVT)           0.00       0.00 r
+  state_reg[1]/QN (DFFARX1_RVT)            0.12       0.12 r
+  U184/Y (AND2X1_RVT)                      0.06       0.18 r
+  HREADYOUT (out)                          0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[13]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[13] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[13]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[13]/Q (DFFARX1_RVT)           0.18       0.18 r
+  PADDR[13] (out)                          0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[31]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[31]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[31]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[31] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[30]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[30]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[30]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[30] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[29]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[29]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[29]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[29] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[28]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[28] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[28]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[28]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[28] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[27]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[27] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[27]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[27]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[27] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[26]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[26] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[26]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[26]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[26] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[25]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[25] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[25]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[25]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[25] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[24]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[24] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[24]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[24]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[24] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[23]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[23] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[23]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[23]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[23] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[22]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[22] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[22]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[22]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[22] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: addr_q_reg[21]
+              (rising edge-triggered flip-flop)
+  Endpoint: PADDR[21] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  standard_bridge_top
+                     8000                  saed32rvt_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  addr_q_reg[21]/CLK (DFFARX1_RVT)         0.00       0.00 r
+  addr_q_reg[21]/Q (DFFARX1_RVT)           0.16       0.16 r
+  PADDR[21] (out)                          0.00       0.16 r
+  data arrival time                                   0.16
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

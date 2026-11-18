@@ -1,0 +1,17 @@
+*design* DebussyLib (btIdent Verdi_W-2024.09)
+Command arguments:
+    +define+verilog
+    -f dfs_rtl.f
+        dfs_top.sv
+        AHB_slave.sv
+        APB_controller.sv
+        activity_monitor.sv
+        dfs_controller.sv
+        sync_2ff.sv
+    -top
+    dfs_top
+
+Highest level modules:
+dfs_top
+
+Total	0 error(s),   0 warning(s)

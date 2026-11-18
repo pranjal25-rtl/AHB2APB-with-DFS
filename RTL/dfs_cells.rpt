@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : reference
+Design : dfs_top
+Version: W-2024.09
+Date   : Tue Oct 20 19:13:41 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AHB_slave                        66.077441       1     66.077441  h, n
+APB_controller                  370.541957       1    370.541957  h, n
+activity_monitor                242.707523       1    242.707523  h, n
+dfs_controller                  119.447682       1    119.447682  h, n
+sync_2ff_0                       14.232064       1     14.232064  h, n
+sync_2ff_1                       14.232064       1     14.232064  h, n
+-----------------------------------------------------------------------------
+Total 6 references                                    827.238732
+1

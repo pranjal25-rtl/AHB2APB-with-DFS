@@ -1,0 +1,21 @@
+****************************************
+Report : Averaged Power
+	-hierarchy
+Design : dfs_top
+Version: T-2022.03-SP2
+Date   : Wed Oct 21 15:20:05 2026
+****************************************
+
+
+
+                                      Int      Switch   Leak     Total
+Hierarchy                             Power    Power    Power    Power    %
+----------------------------------------------------------------------------------
+dfs_top                               2.67e-05 1.20e-06 4.91e-05 7.70e-05 100.0
+  u_ahb_slave (AHB_slave)             2.96e-06 1.36e-08 3.61e-06 6.58e-06   8.5
+  u_apb_ctrl (APB_controller)         1.50e-06 1.39e-07 2.30e-05 2.46e-05  32.0
+  u_sync_ack (sync_2ff_0)             1.11e-06 9.56e-10 1.07e-06 2.18e-06   2.8
+  u_sync_req (sync_2ff_1)             9.37e-08 1.14e-09 1.08e-06 1.17e-06   1.5
+  u_act_mon (activity_monitor)        1.38e-05 3.71e-07 1.36e-05 2.77e-05  36.0
+  u_dfs_ctrl (dfs_controller)         7.24e-06 6.74e-07 6.83e-06 1.47e-05  19.1
+1

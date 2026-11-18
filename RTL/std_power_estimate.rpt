@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : standard_bridge_top
+Version: W-2024.09
+Date   : Tue Oct 20 19:14:08 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /home/tops5/Desktop/syn_mdu/tech/db/saed32rvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+standard_bridge_top    8000              saed32rvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  27.7831 uW   (94%)
+  Net Switching Power  =   1.8417 uW    (6%)
+                         ---------
+Total Dynamic Power    =  29.6248 uW  (100%)
+
+Cell Leakage Power     =  50.5743 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential        24.0042        5.5430e-02        3.1249e+07           55.3088  (  68.96%)
+combinational      3.7789            1.7863        1.9325e+07           24.8903  (  31.04%)
+--------------------------------------------------------------------------------------------------
+Total             27.7831 uW         1.8417 uW     5.0574e+07 pW        80.1991 uW
+1

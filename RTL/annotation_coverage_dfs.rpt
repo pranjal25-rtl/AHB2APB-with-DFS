@@ -1,0 +1,3 @@
+Error: Required argument '-strip_path' was not found (CMD-007)
+Error: Required argument 'file_name' was not found (CMD-007)
+Warning: command 'report_activity_file_check' requires some options. (CMD-032)
